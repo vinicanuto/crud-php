@@ -39,7 +39,8 @@ No diretório "controller" estão os arquivos PHP que executam as funcionalidade
 No diretório "model" estão os arquivos de conexão com o Banco de Dados
 
 O arquivo script.sql é o scrip em sql que cria o banco e a tabela.
-UPDATE - 16/06/2019:
+
+###UPDATE - 16/06/2019:
 
 Adicionamos classe de usuário, tela de login e cadastro, e os controllers relacionados aos usuários.
 
