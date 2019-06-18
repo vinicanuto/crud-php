@@ -24,9 +24,7 @@ class Banco{
         $stmt->execute();
         $stmt->store_result();
         $rows = $stmt->num_rows;
-        $stmt->bind_result($email);
         if ($rows>0) {
-            $result = $stmt->fetch();
             $stmt->close();
             return true;
         } else {

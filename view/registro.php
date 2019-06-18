@@ -10,14 +10,14 @@ require_once "../controller/ControllerRegistraUsuario.php";
 
       <form method="post">
       
-        <input type="text" placeholder="Nome" name="nome">
-        <input type="texte" placeholder="Sobrenome" name="sobrenome">
+        <input type="text" placeholder="Nome" name="nome" required>
+        <input type="texte" placeholder="Sobrenome" name="sobrenome" required>
             
-        <input type="email" placeholder="Email" name="email">
+        <input type="email" placeholder="Email" name="email" required>
                 <!--<span class="glyphicon glyphicon-envelope form-control-feedback"></span>-->
             
-        <input type="password" placeholder="Senha" name="senha">
-        <input type="password" placeholder="Confirmar Senha" name="confirsenha">
+        <input type="password" placeholder="Senha" name="senha" required>
+        <input type="password" placeholder="Confirmar Senha" name="confirsenha" required>
                 <!--<span class="glyphicon glyphicon-lock form-control-feedback"></span>-->
                        
         <input type="submit" value="Cadastrar">   
