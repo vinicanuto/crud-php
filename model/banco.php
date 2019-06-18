@@ -27,8 +27,6 @@ class Banco{
         $stmt->bind_result($email);
         if ($rows>0) {
             $result = $stmt->fetch();
-            session_start();
-            echo $_SESSION['email'] = $result->email;
             $stmt->close();
             return true;
         } else {
