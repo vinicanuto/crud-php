@@ -24,3 +24,4 @@ class cadastroController{
     }
 }
 
+new cadastroController ();
